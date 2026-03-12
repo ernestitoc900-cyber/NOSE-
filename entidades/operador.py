@@ -7,4 +7,5 @@ class Operador(Empleado):
         self.bono_dias = bono_dias
 
     def sueldo_total(self) -> float:
-        if 
+        extra = self.dias_trabajo * self.bono_dias
+        return self.sueldo_base + extra
