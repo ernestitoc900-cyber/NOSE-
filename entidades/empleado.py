@@ -4,6 +4,3 @@ class Empleado:
         self.id = id
         self.sueldo_base = sueldo_base
         self.dias_trabajo = dias_trabajo
-
-print("hola")
-  
